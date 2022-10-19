@@ -1,0 +1,76 @@
+body {
+  text-align: center;
+}
+
+/* Start landing */
+.landing {
+  background-color: white;
+}
+
+.landing .container {
+  align-items: center;
+}
+
+.landing .contact-text {
+  padding-top: 50px;
+}
+
+.landing .contact {
+  border: 3px dashed;
+}
+
+/* End landing */
+
+/* Strart logo-section */
+.logo-section h2 {
+  margin-bottom: 50px;
+}
+
+.logo-section p {
+  margin-bottom: 30px;
+}
+
+.logo-section img {
+  width: 85%;
+}
+
+/* End logo-section */
+
+/* Start best-years */
+.best-years h2 {
+  margin-bottom: 50px;
+}
+
+.best-years p {
+  margin-bottom: 30px;
+}
+
+.best-years .box-container {
+  display: block;
+}
+
+.best-years .box-container .box {
+  background-color: var(--main-red);
+  width: 95%;
+  display: inline-block;
+  margin: 15px;
+}
+
+.best-years .box-container .box h3 {
+  margin: 10% 0;
+}
+
+/* End best-years */
+@media (min-width: 768px) {
+  .best-years .box-container .box {
+    width: 45%;
+  }
+
+  .best-years .box-container .box h3 {
+    margin: 20% 0;
+  }
+
+  .logo-section img {
+    width: 300px;
+  }
+}
