@@ -47,13 +47,21 @@ body {
 
 .best-years .box-container {
   display: block;
+  
 }
 
 .best-years .box-container .box {
   background-color: var(--main-red);
+  background-image: url(../image/best_years_1.jpg);
+  background-size: 100% 100%;
+  background-blend-mode: overlay;
   width: 95%;
   display: inline-block;
+  cursor: pointer;
   margin: 15px;
+}
+.best-years .box-container .box:last-child {
+  background-image: url(../image/best_years_2.jpg);
 }
 
 .best-years .box-container .box h3 {
@@ -61,6 +69,12 @@ body {
 }
 
 /* End best-years */
+/* Start footer */
+footer{
+  background-color: black;
+  color: white;
+}
+/* End footer */
 @media (min-width: 768px) {
   .best-years .box-container .box {
     width: 45%;

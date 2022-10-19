@@ -229,34 +229,14 @@ header .menu-sectoin button {
 }
 
 /* End Landing */
-
-/* Start partner */
-.partner {
-  background-color: var(--main-black);
-  color: var(--main-gray);
-}
-
-.partner h2 {
-  text-align: center;
-  margin-bottom: 60px;
-}
-
-.partner .container .box {
-  display: flex;
-  justify-content: space-evenly;
-  font-size: 3rem;
-}
-
-.partner svg {
-  font-size: 4rem;
-}
-
-/* End partner */
-
 /* Start Footer */
+footer{
+  background-color: white;
+}
 
 footer img {
-  width: 150px;
+  width: 74px;
+  border-radius: 50%;
 }
 
 header .menu-sectoin ul li a.active {

@@ -43,7 +43,7 @@ header .login-section svg {
 .main-program .cards {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 5px;
 }
 
 .main-program .cards .card {
@@ -186,6 +186,29 @@ header .login-section svg {
 }
 
 /* End Speakers */
+/* Start partner */
+.partner {
+  background-color: var(--main-black);
+  color: var(--main-gray);
+}
+
+.partner h2 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.partner .container .box {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 3rem;
+}
+
+.partner svg {
+  font-size: 4rem;
+}
+
+/* End partner */
+
 @media (min-width: 768px) {
   .main-program .cards {
     flex-direction: row;
