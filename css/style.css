@@ -18,6 +18,10 @@ header .login-section ul {
   gap: 20px;
 }
 
+.partner svg {
+  font-size: 4rem;
+}
+
 header .login-section ul li a,
 header .login-section svg {
   color: white;
@@ -186,6 +190,7 @@ header .login-section svg {
 }
 
 /* End Speakers */
+
 /* Start partner */
 .partner {
   background-color: var(--main-black);
@@ -201,10 +206,6 @@ header .login-section svg {
   display: flex;
   justify-content: space-evenly;
   font-size: 3rem;
-}
-
-.partner svg {
-  font-size: 4rem;
 }
 
 /* End partner */

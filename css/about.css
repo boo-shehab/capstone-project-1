@@ -47,7 +47,6 @@ body {
 
 .best-years .box-container {
   display: block;
-  
 }
 
 .best-years .box-container .box {
@@ -60,6 +59,7 @@ body {
   cursor: pointer;
   margin: 15px;
 }
+
 .best-years .box-container .box:last-child {
   background-image: url(../image/best_years_2.jpg);
 }
@@ -69,11 +69,13 @@ body {
 }
 
 /* End best-years */
+
 /* Start footer */
-footer{
+footer {
   background-color: black;
   color: white;
 }
+
 /* End footer */
 @media (min-width: 768px) {
   .best-years .box-container .box {
